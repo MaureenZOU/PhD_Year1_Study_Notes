@@ -1,6 +1,6 @@
 # Pytorch Tricky Survey
 
-### Saving and loading Models (\[link\])[https://pytorch.org/tutorials/beginner/saving_loading_models.html]
+### Saving and loading Models [\[link\]](https://pytorch.org/tutorials/beginner/saving_loading_models.html)
 #### Main related function
 
 ```python
