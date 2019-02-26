@@ -21,6 +21,17 @@ torch.save(model.state_dict(), PATH)
 
 #load
 model = TheModelClass(*args, **kwargs)
+
+device = torch.device("cuda")
 model.load_state_dict(torch.load(PATH))
-model.eval()
+model.to(device)
+model.eval() #Remember that you must call model.eval() to set dropout and batch normalization layers to evaluation mode before running inference. Failing to do this will yield inconsistent inference results.
+```
+#### Saving torch.nn.DataParallel Models
+
+```python
+#save
+torch.save(model.module.state_dict(), PATH)
+
+#Load to whatever device you want
 ```
