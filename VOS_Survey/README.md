@@ -18,10 +18,16 @@
 
 #### Predicting Future Instance Segmentation by Forecasting Convolutional Features [\[Paper\]](https://arxiv.org/pdf/1803.11496.pdf) [\[Code\]](https://github.com/facebookresearch/instpred)
 
-* Summary: This paper integrate the region proposal of fram T, T-1, T-k ... to predict the instance segmantation mask of next frame.
+* Summary: This paper integrate the region proposal of frame T, T-1, T-k ... to predict the instance segmantation mask of next frame.
 ![alt text](https://github.com/MaureenZOU/PhD_Year1_Study_Notes/blob/master/VOS_Survey/imgs/2.png)
 
-* Comment: Idea seems to be really interesting, but the paper written is bad bad bad. I can't fully understand by reading it twice. 
+* Comment: Idea seems to be really interesting, but the paper written is bad bad bad. I can't fully understand by reading it twice.
+
+#### Learning Video Object Segmentation with Visual Memory [\[Paper\]](https://lear.inrialpes.fr/people/alahari/papers/tokmakov17a.pdf)
+
+* Summary: This paper integrate the information from optical flow and a pretrained semantic segmantation Network. And use a ConvGRU module to remember T-1 input.
+
+* Comment: Somehow make sense. But not as explict as we want. 
 
 ### Anyway, they are boring papers to read
 
