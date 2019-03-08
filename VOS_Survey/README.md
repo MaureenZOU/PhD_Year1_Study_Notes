@@ -5,6 +5,8 @@
 
 * Summary: This paper propose a generic network module to shift, rotate and rescale the image according to coordinate transformation.
 
+![alt text](https://github.com/MaureenZOU/PhD_Year1_Study_Notes/blob/master/VOS_Survey/imgs/stn.png)
+
 * Comment: It is the best kind of research, apply very light but mathematical things to deep learning and make it a differenciable module. Good performance. 
 
 ### Reasonable Paper
