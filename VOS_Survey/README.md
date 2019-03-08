@@ -19,6 +19,7 @@
 #### Predicting Future Instance Segmentation by Forecasting Convolutional Features [\[Paper\]](https://arxiv.org/pdf/1803.11496.pdf) [\[Code\]](https://github.com/facebookresearch/instpred)
 
 * Summary: This paper integrate the region proposal of fram T, T-1, T-k ... to predict the instance segmantation mask of next frame.
+![alt text](https://github.com/MaureenZOU/PhD_Year1_Study_Notes/blob/master/VOS_Survey/imgs/2.png)
 
 * Comment: Idea seems to be really interesting, but the paper written is bad bad bad. I can't fully understand by reading it twice. 
 
