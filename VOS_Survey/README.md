@@ -26,8 +26,11 @@
 #### Learning Video Object Segmentation with Visual Memory [\[Paper\]](https://lear.inrialpes.fr/people/alahari/papers/tokmakov17a.pdf)
 
 * Summary: This paper integrate the information from optical flow and a pretrained semantic segmantation Network. And use a ConvGRU module to remember T-1 input.
+![alt text](https://github.com/MaureenZOU/PhD_Year1_Study_Notes/blob/master/VOS_Survey/imgs/3.png)
 
 * Comment: Somehow make sense. But not as explict as we want. 
+
+
 
 ### Anyway, they are boring papers to read
 
