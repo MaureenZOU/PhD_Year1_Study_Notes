@@ -11,7 +11,12 @@ The below flow chart contains the main block of maskrcnn, including backbone, rp
 
 ![alt text](https://github.com/MaureenZOU/Review_of_maskrcnn/blob/master/backbone.png)
 
-#### rpn and box + mask heads
+#### rpn and box + mask head
 
 ![alt text](https://github.com/MaureenZOU/Review_of_maskrcnn/blob/master/rpn_head.png)
+
+### Details
+#### Anchor and rpn selecton procedure, rpn loss, mask loss and box loss
+![alt text](https://github.com/MaureenZOU/PhD_Year1_Study_Notes/blob/master/maskrcnn_review/maskrcnn4.jpg)
+
 
