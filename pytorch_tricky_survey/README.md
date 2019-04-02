@@ -3,6 +3,8 @@
 ## Autogradient [\[link\]](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) This bad thing fool me for two month until I recognize it is the bug of autogradient.
 
+* key question before reading this section. (1) Network Autogradient (2) Input tensor Autogradient (3) How does autogradient link with optimizer.
+
 
 
 ## Saving and loading Models [\[link\]](https://pytorch.org/tutorials/beginner/saving_loading_models.html)
