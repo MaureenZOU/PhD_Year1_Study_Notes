@@ -1,7 +1,7 @@
 # Pytorch Tricky Survey
 
 ## Autogradient [\[link\]](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
-This bad thing fool me for two month until I recognize it is the problem of autogradient.
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) This bad thing fool me for two month until I recognize it is the bug of autogradient.
 
 
 
