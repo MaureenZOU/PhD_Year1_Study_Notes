@@ -1,5 +1,10 @@
 # Pytorch Tricky Survey
 
+## Autogradient [\[link\]](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
+This bad thing fool me for two month until I recognize it is the problem of autogradient.
+
+
+
 ## Saving and loading Models [\[link\]](https://pytorch.org/tutorials/beginner/saving_loading_models.html)
 ### Main related function
 
