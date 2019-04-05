@@ -1,5 +1,10 @@
 # Pytorch Tricky Survey
 
+## MSE Loss and BCE Loss
+BCE loss could only require gradient for the input, but MSE could require both.
+
+At the same time, MSE loss automatically average the loss across different dimensions unless you unflag it, please please bare in mind!!!!
+
 ## Autogradient [\[link\]](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) This bad thing fool me for two month until I recognize it is the bug of autogradient.
 
