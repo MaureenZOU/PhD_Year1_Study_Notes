@@ -1,4 +1,9 @@
-# PhD_Year1_Study_Notes
+# Mistakes
+能不能不要再犯这种错误了，真的影响实验进度。。。。。。。。。。。
 
-A study note for my own interests~ Actually, it is because when I see some notes after learning, I will feel much happier :) If someone else is also interested in that topic, then it is fantastic~
+1. 不知道第几次忘记pytorch normaliza之后会把0-255直接归一化。
+2. 每次写完loader一定一定要在feed进网络之前再viusalize一次！！！！！！
+3. evaluation把random crop关掉。。。。。。。。。
+
+
 
