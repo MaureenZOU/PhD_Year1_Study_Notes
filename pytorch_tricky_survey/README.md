@@ -1,5 +1,8 @@
 # Pytorch Tricky Survey
 
+## Version Control
+For each project if you work on a specific pytorch version, then stick on that. Otherwise it will create some problem.
+
 ## MSE Loss and BCE Loss
 BCE loss could only require gradient for the input, but MSE could require both.
 
