@@ -1,5 +1,8 @@
 # Pytorch Tricky Survey
 
+## torch.max
+for more than three dimension, it will first return the max value and then return the coordinates. 
+
 ## Version Control
 For each project if you work on a specific pytorch version, then stick on that. Otherwise it will create some problem.
 
