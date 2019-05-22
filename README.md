@@ -1,3 +1,13 @@
+# Daily Checkbox
+
+2019.5.22
+- [ ] Going back to maskrcnn code to go through every detail
+1. what configuration does it take
+2. train/test entry, engine, dataloader, main framework, loss
+3. for each detail, try to understand why maskrcnn use that.
+
+
+
 # Mistakes
 能不能不要再犯这种错误了，真的影响实验进度。。。。。。。。。。。
 
