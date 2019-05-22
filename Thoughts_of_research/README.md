@@ -1,6 +1,5 @@
-# PhD_Year1_Study_Notes
+# 改错本
 
-A study note for my own interests~ Actually, it is because when I see some notes after learning, I will feel much happier :) If someone else is also interested in that topic, then it is fantastic~
-
-1. Semantic Image Synthesis with Spatially-Adaptive Normalization https://arxiv.org/pdf/1903.07291.pdf
-2. 
+### Video Instance Segmentation
+1. 这次和fanyi试了两个idea, 一个是用bounding box去限制mask, 要求box内每一行，每一列都要有mask pixel, box外都是0, 这个constraint有很多trivial solution, converge的结果都是有格子的。
+[]- 
