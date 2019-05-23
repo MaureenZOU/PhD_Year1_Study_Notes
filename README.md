@@ -1,7 +1,7 @@
 # Daily Checkbox
 
 2019.5.22
-- [ ] Set up a more convient IDE
+- [x] Set up a more convient IDE
 - [ ] Going back to maskrcnn code to go through every detail
 1. what configuration does it take
 2. train/test entry, engine, dataloader, main framework, loss
