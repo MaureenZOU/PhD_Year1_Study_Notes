@@ -30,7 +30,7 @@ def init_processes(rank, size, fn, backend='tcp'):
     """ Initialize the distributed environment. """
     os.environ['MASTER_ADDR'] = '127.0.0.1' # These two, 'MASTER_ADDR' and 'MASTER_PORT' are the ports for multi-process jobs to communicate
     os.environ['MASTER_PORT'] = '29500'
-    dist.init_process_group(backend, rank=rank, world_size=size)
+    dist.init_process_group(backend, rank=rank, world_size=size) # The package needs to be initialized using the torch.distributed.init_process_group() function before calling any other methods
     fn(rank, size)
 
 
