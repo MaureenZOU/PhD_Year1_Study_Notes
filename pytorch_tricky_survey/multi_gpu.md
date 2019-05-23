@@ -33,6 +33,7 @@ def init_processes(rank, size, fn, backend='tcp'):
     dist.init_process_group(backend, rank=rank, world_size=size) # The package needs to be initialized using the torch.distributed.init_process_group() function before calling any other methods
     fn(rank, size)
 
+# It ensures that every process will be able to coordinate through a master, using the same ip address and port.
 
 if __name__ == "__main__":
     size = 2
