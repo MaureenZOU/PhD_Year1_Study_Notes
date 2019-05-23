@@ -1,6 +1,7 @@
 # Daily Checkbox
-
-
+2019.5.23
+- [] Build classification branch on mask head
+- [] Build visdom on maskrcnn
 
 2019.5.22
 - [x] Set up a more convient IDE
