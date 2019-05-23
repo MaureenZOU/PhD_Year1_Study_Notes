@@ -1,8 +1,11 @@
 # Daily Checkbox
 
+
+
 2019.5.22
 - [x] Set up a more convient IDE
 - [ ] Going back to maskrcnn code to go through every detail
+0. - [x] Pytorch Distributed
 1. what configuration does it take
 2. train/test entry, engine, dataloader, main framework, loss
 3. for each detail, try to understand why maskrcnn use that.
