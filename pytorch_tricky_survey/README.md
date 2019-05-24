@@ -1,5 +1,18 @@
 # Pytorch Tricky Survey
 
+## torch.nn.Module.named_parameters()
+
+```Python
+# Returns an iterator over module parameters(could be some class inherit nn.Module), yielding both the name of the parameter as well as the parameter itself.
+
+for name, param in self.named_parameters(): 
+    if "bias" in name:
+        nn.init.constant_(param, 0)
+    elif "weight" in name:
+        nn.init.kaiming_normal_(param, mode="fan_out", nonlinearity="relu")
+                
+```
+
 ## torch.max
 for more than three dimension input, it will first return the max value and then return the coordinates. 
 
