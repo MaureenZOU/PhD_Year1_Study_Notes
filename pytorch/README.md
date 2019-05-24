@@ -1,4 +1,4 @@
-# Pytorch Tricky Survey
+# Pytorch misc
 
 ## torch.nn.Module.named_parameters()
 
