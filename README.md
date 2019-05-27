@@ -1,6 +1,11 @@
 # Daily Checkbox
+
+2019.5.27
+- [ ] build visdom on maskrcnn
+- [ ] think about idea and reply all the ideas for fanyi and weixin
+
 2019.5.23
-- [ ] Build classification branch on mask head
+- [x] Build classification branch on mask head
 - [ ] Build visdom on maskrcnn
 
 2019.5.22
