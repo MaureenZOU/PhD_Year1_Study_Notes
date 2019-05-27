@@ -1,5 +1,39 @@
 # Pytorch misc
 
+## torch.nn.Module.training and torch.nn.Module.train(mode)
+These are build in function of pytorch. For change the mode of training. eval() will call model.train() to set the training mode.
+
+```Python
+def eval(self):
+        r"""Sets the module in evaluation mode.
+
+        This has any effect only on certain modules. See documentations of
+        particular modules for details of their behaviors in training/evaluation
+        mode, if they are affected, e.g. :class:`Dropout`, :class:`BatchNorm`,
+        etc.
+        """
+        return self.train(False)
+```
+
+
+```Python
+def train(self, mode=True):
+        r"""Sets the module in training mode.
+
+        This has any effect only on certain modules. See documentations of
+        particular modules for details of their behaviors in training/evaluation
+        mode, if they are affected, e.g. :class:`Dropout`, :class:`BatchNorm`,
+        etc.
+
+        Returns:
+            Module: self
+        """
+        self.training = mode
+        for module in self.children():
+            module.train(mode)
+        return self
+```
+
 ## torch.nn.Module.named_parameters()
 
 ```Python
