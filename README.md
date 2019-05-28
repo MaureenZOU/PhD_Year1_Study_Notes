@@ -1,7 +1,9 @@
 # Daily Checkbox
 
 2019.5.27
-- [ ] build visdom on maskrcnn
+- [x] build visdom on maskrcnn
+- [x] run evaluation on maskrcnn classification head
+- [ ] migrate visdom to 
 - [ ] think about idea and reply all the ideas for fanyi and weixin
 
 2019.5.23
