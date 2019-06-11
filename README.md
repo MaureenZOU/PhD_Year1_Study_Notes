@@ -8,8 +8,7 @@
 2019.5.27
 - [x] build visdom on maskrcnn
 - [x] run evaluation on maskrcnn classification head
-- [ ] migrate visdom to fanyi-dev
-- [ ] think about idea and reply all the ideas for fanyi and weixin
+- [x] migrate visdom to fanyi-dev
 
 2019.5.23
 - [x] Build classification branch on mask head
