@@ -22,7 +22,9 @@
 2. train/test entry, engine, dataloader, main framework, loss
 3. for each detail, try to understand why maskrcnn use that.
 
-
+# Sui Sui Nian
+0. 没有做soft-encoding的classification没有mse结果好 （为什么？）
+1. Gray scale Augmentation, 对实验结果没有影响
 
 # Mistakes
 能不能不要再犯这种错误了，真的影响实验进度。。。。。。。。。。。
