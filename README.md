@@ -1,6 +1,6 @@
 # Daily Checkbox
 2019.6.11
-- [ ] Finish implement shared weight colorization framework
+- [ ] 把soft-encoding加到classification上，Finish implement shared weight colorization framework
 - [ ] 把labelme挂到server上
 - [ ] 把vision6装好
 - [ ] 把老板的idea想清楚，交代清楚，并且和老板道歉，在implementation这件事情上并没有完全讲实话
