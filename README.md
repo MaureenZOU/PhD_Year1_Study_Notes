@@ -33,6 +33,7 @@
 2. 每次写完loader一定一定要在feed进网络之前再viusalize一次！！！！！！
 3. evaluation把random crop关掉。。。。。。。。。
 4. 如果不是最终版本，改动一个东西的时候，要在前面加上 #XYZ TODO这样的标示，方便以后redo的时候搜索。
+5. 每次实验之后一定要养成良好的记录习惯，不要怕浪费时间。（开一个google sheet记录实验结果）
 
 
 
