@@ -1,4 +1,9 @@
 # Daily Checkbox
+2019.6.23
+- [ ] run masktrackrcnn
+- [ ] implement share weight colorization videon-inst-seg
+- [ ] 有时间读今年cvpr的paper，看oral的video
+
 2019.6.11
 - [ ] 把soft-encoding加到classification上，Finish implement shared weight colorization framework
 - [ ] 把labelme挂到server上
