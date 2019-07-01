@@ -14,7 +14,11 @@ sudo mount /dev/xvdf /data/ # mount the disk
 pip install virtualenv # Installing virtualenv
 virtualenv --version # Test your installation
 cd py_env # go to the folder where you save virtual environment
+
 virtualenv -p python3.5 virtualenv_name # create a virtualenv
+or
+python3 -m virtualenv -p python3 maskrcnn # sometimes virtualenv doesn't work
+
 source virtualenv_name/bin/activate # start virtualenv
 deactivate # exit virtualenv
 ```
