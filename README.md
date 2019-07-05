@@ -1,3 +1,10 @@
+# 要养成的习惯
+目前监测的事情：
+- 在一个checkpoint结束之前不能玩手机（当你意识到这个事情的时候立刻放下）
+- 在每次跑程序之前，double check parameter are all correct, 开始跑程序之后每几个小时check一次程序是否断掉了
+- 吃饭控制食量，差不多饱了，放下筷子，扔掉
+
+
 # Daily Checkbox
 2019.6.23
 - [ ] run masktrackrcnn
