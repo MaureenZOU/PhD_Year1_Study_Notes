@@ -61,7 +61,7 @@ parser.add_argument("--local_rank", type=int, default=0)
 ```
 Because Torch distributed will automatically open multiple process, 1 and 2 link process with gpu rank, thus, each process could get its correct rank.
 
-3. put cuda model to distributed class \[[link]\](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/tools/train_net.py#L49)
+3. put cuda model to distributed class \[[link](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/tools/train_net.py#L49)\]
 
 ```Python
 if distributed:
