@@ -1,6 +1,6 @@
 # Multi-GPU
 
-![alt text](https://github.com/MaureenZOU/PhD_Year1_Study_Notes/edit/master/pytorch/img1.png)
+![alt text](https://github.com/MaureenZOU/PhD_Year1_Study_Notes/blob/master/pytorch/img1.png)
 
 ## Data parallel
 
