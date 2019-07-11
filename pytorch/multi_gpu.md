@@ -54,7 +54,7 @@ if __name__ == "__main__":
 python3 -m torch.distributed.launch --nproc_per_node=4 --master_addr 127.0.0.2 --master_port 29501 train_net.py
 ```
 
-2. set local rank into arguement \[[link]\](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/tools/train_net.py#L132)
+2. set local rank into arguement \[[link](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/tools/train_net.py#L132)\]
 
 ```Python
 parser.add_argument("--local_rank", type=int, default=0)
@@ -72,7 +72,7 @@ if distributed:
             )
 ```
 
-4. create distributed data sampler \[[link]\](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/maskrcnn_benchmark/data/samplers/distributed.py)
+4. create distributed data sampler \[[link](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/maskrcnn_benchmark/data/samplers/distributed.py)\]
 
 ```Python
 import math
@@ -140,7 +140,7 @@ class DistributedSampler(Sampler):
         self.epoch = epoch
 ```
 
-5. communicate through process to get loss \[[link]\](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/maskrcnn_benchmark/engine/trainer.py#L14)
+5. communicate through process to get loss \[[link](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/maskrcnn_benchmark/engine/trainer.py#L14)\]
 
 ```Python
 def reduce_loss_dict(loss_dict):
@@ -168,13 +168,13 @@ def reduce_loss_dict(loss_dict):
     return reduced_losses
 ```
 
-6. log in rank 0 \[[link]\](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/maskrcnn_benchmark/utils/logger.py#L11)
+6. log in rank 0 \[[link](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/maskrcnn_benchmark/utils/logger.py#L11)\]
 
 ```Python
 if distributed_rank > 0:
         return logger
 ```
 
-7. Util Funcs for distributed \[[link]\](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/maskrcnn_benchmark/utils/comm.py)
+7. Util Funcs for distributed \[[link](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/maskrcnn_benchmark/utils/comm.py)\]
 
 
