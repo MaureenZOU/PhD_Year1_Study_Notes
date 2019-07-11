@@ -46,3 +46,17 @@ if __name__ == "__main__":
     for p in processes:
         p.join()
 ```
+
+## Maskrcnn Distributed
+1. run distributed cmd line, master addr/port should be different for different process
+
+```Python
+python3 -m torch.distributed.launch --nproc_per_node=4 --master_addr 127.0.0.2 --master_port 29501 train_net.py
+```
+
+2. set local rank into arguement [link](https://github.com/facebookresearch/maskrcnn-benchmark/blob/55796a04ea770029a80cf5933cc5c3f3f6fa59cf/tools/train_net.py#L132)
+
+```Python
+parser.add_argument("--local_rank", type=int, default=0)
+```
+
