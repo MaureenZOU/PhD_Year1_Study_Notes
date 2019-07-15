@@ -1,5 +1,12 @@
 # System Maintain Notes
 
+- Install cuda locally
+
+```bash
+sudo ./cuda_9.0.176_384.81_linux-run --toolkitpath=/home/xueyan/cuda-9.0 --override
+```
+
+
 - Partition and mount a new disk
 
 ```bash
