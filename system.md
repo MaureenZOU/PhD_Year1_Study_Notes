@@ -4,6 +4,8 @@
 
 ```bash
 sudo ./cuda_9.0.176_384.81_linux-run --toolkitpath=/home/xueyan/cuda-9.0 --override #这么简单的东西吓了我一周
+export PATH=/usr/local/cuda-9.0/bin:$PATH # input it in bashrc file, comment when don't need cuda9
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
 ```
 
 
