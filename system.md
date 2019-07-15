@@ -3,7 +3,7 @@
 - Install cuda locally
 
 ```bash
-sudo ./cuda_9.0.176_384.81_linux-run --toolkitpath=/home/xueyan/cuda-9.0 --override
+sudo ./cuda_9.0.176_384.81_linux-run --toolkitpath=/home/xueyan/cuda-9.0 --override #这么简单的东西吓了我一周
 ```
 
 
