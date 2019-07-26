@@ -1,4 +1,24 @@
 # Pytorch misc
+## Inheritance in Python
+```Python
+class Animal(object):
+    def __init__(self, age):
+        self.age = age
+        return self
+
+    def forward(age):
+        self.age += age
+    
+class Cat(Animal):
+    def __init__(self, *argv):
+        self.obj1 = super(Cat, self).__init__(argv)
+        self.obj2 = super(Cat, self).__init__(argv)
+        print(self.obj1)
+
+cat = Cat(3)
+print(cat.obj1.age)
+print(cat.obj2.age)
+```
 
 ## torch.nn.Module.training and torch.nn.Module.train(mode)
 These are build in function of pytorch. For change the mode of training. eval() will call model.train() to set the training mode.
