@@ -1,7 +1,34 @@
 # System Maintain Notes
 
-- Install cuda locally
+- Install cuda driver
+(开心的第一次装了机器，有了自己的workstation :)
 
+```bash
+# install gcc and its accompanying tools
+sudo apt-get install gcc
+sudo apt-get install build-essential
+
+# disable and stop gdm
+sudo systemctl disable gdm
+sudo systemctl stop gdm
+sudo systemctl status gdm
+
+# Create a file at /etc/modprobe.d/blacklist-nouveau.conf with the following contents
+blacklist nouveau
+options nouveau modeset=0
+# Regenerate the kernel initramfs
+sudo update-initramfs -u
+
+# install
+sudo ./cuda_9.0.176_384.81_linux-run --toolkitpath=/home/xueyan/cuda-9.0
+
+# restart gdm
+sudo systemctl enable gdm
+sudo systemctl start gdm
+
+```
+
+- Install cuda locally
 ```bash
 chmod +x cuda_9.0.176_384.81_linux-run
 sudo ./cuda_9.0.176_384.81_linux-run --toolkitpath=/home/xueyan/cuda-9.0 --override #这么简单的东西吓了我一周
