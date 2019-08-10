@@ -1,9 +1,9 @@
 # System Maintain Notes
 
 - Install cuda driver
-(开心的第一次装了机器，有了自己的workstation :)
 
 ```bash
+# (开心的第一次装了机器，有了自己的workstation :)
 # install gcc and its accompanying tools
 sudo apt-get install gcc
 sudo apt-get install build-essential
