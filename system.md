@@ -38,12 +38,19 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
 
 
 - Partition and mount a new disk
-
 ```bash
 sudo rsync -av * /disk3/. # copy existing file
 cat /proc/partitions # find the disk name to partition
 sudo mkfs.ext4 /dev/xvdf # partition the disk
 sudo mount /dev/xvdf /data/ # mount the disk
+```
+
+- Mount disk on linux automatically when boot
+```bash
+# ht小朋友教了各种实用tips ;)
+sudo blkid # copy UUID
+sudo vim /etc/fstab
+UUID=ea65100b-c4b2-405d-a4f6-664f74563d8d /data         ext4    errors=remount-ro 0       1 # add this line to previous file
 ```
 
 - Vitual Environment
