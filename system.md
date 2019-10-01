@@ -47,7 +47,6 @@ sudo mount /dev/xvdf /data/ # mount the disk
 
 - Mount disk on linux automatically when boot
 ```bash
-# ht小朋友教了实用tips ;) 除了这个感觉他会成为paper大神 in the future（立了一个flag) 后生可畏系列 :).
 sudo blkid # copy UUID
 sudo vim /etc/fstab
 UUID=ea65100b-c4b2-405d-a4f6-664f74563d8d /data         ext4    errors=remount-ro 0       1 # add this line to previous file
