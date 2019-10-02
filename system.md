@@ -28,6 +28,13 @@ sudo systemctl start gdm
 
 ```
 
+- Uninstall cuda driver (install with .run file)
+
+```bash
+sudo /usr/local/cuda-10.1/bin/cuda-uninstaller
+sudo /usr/bin/nvidia-uninstall
+```
+
 - Install cuda locally
 ```bash
 chmod +x cuda_9.0.176_384.81_linux-run
