@@ -1,4 +1,5 @@
 # System Maintain Notes
+天啊。。。。要被系统搞吐了。。。。vision4还能不能活了。。。。
 
 - Install cuda driver
 
