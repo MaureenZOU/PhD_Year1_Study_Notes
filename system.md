@@ -13,6 +13,9 @@ sudo systemctl disable gdm
 sudo systemctl stop gdm
 sudo systemctl status gdm
 
+# or disable lightdm
+sudo service lightdm stop
+
 # Create a file at /etc/modprobe.d/blacklist-nouveau.conf with the following contents
 blacklist nouveau
 options nouveau modeset=0
@@ -25,6 +28,10 @@ sudo ./cuda_9.0.176_384.81_linux-run --toolkitpath=/home/xueyan/cuda-9.0
 # restart gdm
 sudo systemctl enable gdm
 sudo systemctl start gdm
+
+# restart lightdm
+sudo service lightdm stop
+
 
 ```
 
