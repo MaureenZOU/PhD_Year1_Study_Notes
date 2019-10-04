@@ -29,7 +29,7 @@ sudo systemctl enable gdm
 sudo systemctl start gdm
 
 # restart lightdm
-sudo service lightdm stop
+sudo service lightdm start
 
 
 ```
