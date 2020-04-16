@@ -1,4 +1,17 @@
 # Pytorch misc
+
+## (N,C,H,W) tensor to np image
+
+```Python
+import numpy as np
+import cv2
+mean=[0.485, 0.456, 0.406]
+std=[0.229, 0.224, 0.225]
+image = (((images[0][0].cpu().numpy() * np.array(std).reshape(3,1,1)) + np.array(mean).reshape(3,1,1))*255).transpose(1,2,0)[:,:,::-1]
+
+
+```
+
 ## Inheritance in Python
 ```Python
 class Animal(object):
