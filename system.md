@@ -28,7 +28,7 @@ sudo ./cuda_9.0.176_384.81_linux-run --toolkitpath=/home/xueyan/cuda-9.0
 sudo systemctl enable gdm
 sudo systemctl start gdm
 
-# restart lightdm
+# or restart lightdm
 sudo service lightdm start
 
 
