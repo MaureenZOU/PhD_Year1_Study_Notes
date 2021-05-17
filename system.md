@@ -78,3 +78,9 @@ python3 -m virtualenv -p python3 maskrcnn # sometimes virtualenv doesn't work
 source virtualenv_name/bin/activate # start virtualenv
 deactivate # exit virtualenv
 ```
+
+- PyTorch Cuda Debug
+```
+torch.autograd.set_detect_anomaly(True)
+CUDA_LAUNCH_BLOCKING=2
+```
