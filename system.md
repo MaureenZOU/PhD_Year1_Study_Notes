@@ -84,3 +84,15 @@ deactivate # exit virtualenv
 torch.autograd.set_detect_anomaly(True)
 CUDA_LAUNCH_BLOCKING=2
 ```
+
+- Computation Cost
+```
+from thop import profile
+from thop import clever_format
+
+macs, params = profile(model, inputs=(samples,))
+macs, params = clever_format([macs, params], "%.3f")
+```
+
+
+
